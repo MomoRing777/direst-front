@@ -70,7 +70,7 @@ setTimeout(function(){
 
 // Dish modal
 $(".prod-img-rest:not(.__rs)").click(function(){
-    location.href="/singleRestaurant.html"
+    location.href="/direst-front/singleRestaurant.html"
   
 });
 
