@@ -69,10 +69,16 @@ setTimeout(function(){
 
 
 // Dish modal
-$(".prod-img:not(.__rs)").click(function(){
+$(".prod-img-rest:not(.__rs)").click(function(){
+    location.href="/singleRestaurant.html"
+  
+});
+
+$(".prod-img-dish:not(.__rs)").click(function(){
     $('#chmodal').show();
     $('body').css({"overflow-y": "hidden"});
 });
+
 $(".nm-price h1:not(.__rs)").click(function(){
     $('#chmodal').show();
     $('body').css({"overflow-y": "hidden"});
